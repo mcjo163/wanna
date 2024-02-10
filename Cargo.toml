@@ -1,0 +1,19 @@
+[package]
+name = "wanna"
+description = "A super simple CLI app for keeping track of things you wanna do"
+homepage = "https://github.com/mcjo163/wanna"
+documentation = "https://github.com/mcjo163/wanna"
+repository = "https://github.com/mcjo163/wanna"
+readme = "README.md"
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.79"
+clap = { version = "4.5.0", features = ["derive", "cargo"] }
+directories = "5.0.1"
+edit-distance = "2.1.0"
+rand = "0.8.5"
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = "1.0.113"
