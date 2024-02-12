@@ -7,7 +7,7 @@ $ wanna do something
 ## `What do you wanna do?`
 
 `wanna` is a super simple CLI app for keeping track of things you "wanna" do. Let's
-say you are an avid baker and reader. You could tell wanna about some things you'd
+say you are an avid baker and reader. You could tell `wanna` about some things you'd
 like to do:
 
 ```bash
